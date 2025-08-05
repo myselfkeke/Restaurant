@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  /* background-color: gray; */
 }
 #menu ul {
   list-style: none;
@@ -264,7 +263,6 @@
   /* code for our specility  ends here */
   /* code for Newsletter starts here */
   .newsletter {
-    border: 1px solid blue;
     height: 250px;
     width: 99%;
     margin: 0 auto;
@@ -284,7 +282,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 35px 0 35px 0;
   }
-
+  
   .newsletter .newsletter-form input[type="email"] {
     width: 260px; 
     margin-right: 5px;
@@ -305,3 +303,32 @@
     font-weight: 600;
     
   }
+  /* code for footer starts here */
+  .footer {
+    display: flex;
+    background-color: 1px solid blue;
+    height: 200px;
+    width: 100%;
+  }
+
+  .footer .footer-content {
+    height: 200px;
+    width: 25%;
+    padding-left: 30px;
+  }
+
+  .footer .footer-content h3 {
+    text-align: center;
+    margin: 5 auto 10px;
+    color: #02A237;
+  }
+  .footer .footer-content p {
+    color: #02A237;
+    margin: 3px;
+  }
+  .footer .footer-content p:hover {
+    cursor: pointer;
+    color: orange;
+    transition: all ease 0.2s;
+  }
+  /* code for footer ends here */
