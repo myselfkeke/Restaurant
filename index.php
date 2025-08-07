@@ -134,23 +134,10 @@
       </div>
     </div>
     <!-- code for out speciality section ends here... -->
-    <!-- code for Newsletter section starts here... -->
-     
-     <br>
-    <h2 class="featured-heading">Newsletter</h2>
-    <hr>
-    <div class="newsletter">
-      <div class="newsletter-form">
-        <form action="#" method="GET">
-          <input type="email" placeholder="Your email here...">
-          <input type="submit" value="Submit">
-        </form>
-      </div>
-    </div>
-
-    <!-- code for Newsletter section ends here... -->
+    
      
   <?php
+  include "newsletter.php";
   include "footer.php";
   ?>
 </body>
