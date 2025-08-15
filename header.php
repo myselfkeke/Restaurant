@@ -24,7 +24,7 @@
         
       </li>
       <li><a href="menu.php">Menu</a></li>
-      <li><a href="#">Order</a></li>
+      <li><a href="order.php">Order</a></li>
       <li><a href="#">Contacts</a></li>
     </ul>
   </div>
