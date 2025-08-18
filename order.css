@@ -3,12 +3,13 @@
 .container-right-order-now-form {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: ;
   height: 65vh;
   margin-top: 13vh;
-  box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
-  padding-right: 2px;
+  box-shadow: 0 0 7px rgba(0,0,0,0.5);
+  padding: 2px;
   border-radius: 5px;
+  background-color: rgba(211, 211, 211, 0.391);
 }
 
 /* For small devices */
@@ -43,6 +44,7 @@
   margin: 5px 0;
   border-radius: 5px;
   padding: 0 15px;
+  background-color: white;
 }
 
 /* .checkbox-grid > :nth-child(1),
@@ -66,13 +68,19 @@
 .checkbox-grid input[type="checkbox"] {
   margin-right: 8px;
 }
-.checkbox-grid input[type="submit"] {
+.container-right-order-now-form input[type="submit"] {
   background-color: orange;
   cursor: pointer;
+  color: black;
+  transition: all ease 0.2;
+}
+.container-right-order-now-form input[type="submit"]:hover {
+  border: none;
+  opacity: 0.8;
 }
 
 .container-right-order-now-form textarea {
-  height: 70px;
+  height: 80px;
   line-height: 14px;
   resize: none;
 }
@@ -80,4 +88,19 @@
   text-align: center;
   margin: 5px 0 -10px;
   color: gray;
+}
+
+.container button a {
+  text-decoration: none;
+  color: white;
+}
+.container-right-order-now-form .address address {
+  margin-bottom: -16px;
+}
+.container-right-order-now-form .address {
+  text-align: center;
+  margin-top: 2px;
+  color: gray;
+  font-style: italic;
+  font-size: 12px;
 }
